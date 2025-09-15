@@ -30,9 +30,18 @@ export default function Home() {
 					<p>
 						Have a quick look at the{' '}
 						<a href='trending' className='hover:underline text-purple-500'>
-							trending music
-						</a>
-						.
+							trending
+						</a>{' '}
+						music .
+					</p>
+				</section>
+				<section>
+					<h2 className='text-2xl'>Manage</h2>
+					<p>
+						<a href='manage' className='hover:underline text-purple-500'>
+							Manage
+						</a>{' '}
+						your songs. Add or edit your favorite music. .
 					</p>
 				</section>
 			</main>
