@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import PageLayout from '../components/pageLayout';
 
 const Manage = () => {
 	const [file, setFile] = useState<File | null>(null);
@@ -23,7 +24,7 @@ const Manage = () => {
 	};
 
 	return (
-		<div>
+		<PageLayout>
 			<h1 className='text-3xl'>Manage your music</h1>
 			<section className='mt-3'>
 				<h2 className='text-2xl'>Add your songs</h2>
@@ -46,7 +47,7 @@ const Manage = () => {
 					</button>
 				</form>
 			</section>
-		</div>
+		</PageLayout>
 	);
 };
 
